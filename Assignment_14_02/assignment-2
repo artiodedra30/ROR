@@ -1,0 +1,39 @@
+1. Difference between and vs && with examples.
+
+and And && will return true only and only if both the inputs are true otherwise it will give false. 
+and has lower precedence than && unless it uses in brackets.
+
+
+2. Difference between next and break with examples. 
+
+next will ignore execution for current input if condition is true and jumps to the next input execution.
+break will terminate the execution of most inner loop when the condition is true
+    
+
+
+3. Difference between redo and retry with examples.
+     redo will only redo the execution of input where condition got true but retry will restarts executing loop all over again when condition is true.
+
+4. Difference between eql? and equal? with examples.
+
+eql? will return true when value and type of variable is same.
+equal? Will return true if value,type and object_id of variables is same. 
+
+5. List spread operators with examples.
+ List spread operators will be ranges of inputs. If you use (..) two dots then it will include last input and in (…) three dots it will be excluded.
+
+6. Write ruby code for:
+  6.1 
+	*****
+	****
+	***
+	**
+	*
+
+  6.2
+  	1
+  	12
+  	123
+  	1234
+  	12345
+
