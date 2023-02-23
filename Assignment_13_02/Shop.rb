@@ -1,5 +1,5 @@
 SHOP_NAME = "Stationary Shop"
-COMPANY_NAME = "Classmate"
+$company_name = "Classmate"
 class Shop
   def initialize(name, price)
     @p_name = name
@@ -20,8 +20,8 @@ class Shop
    end
 end
 
-s1 = Shop.new("#{COMPANY_NAME} Books",400)
+s1 = Shop.new("#{$company_name} Books",400)
 s1.getDetails
-s2=Shop.new("#{COMPANY_NAME} Marker",50);
+s2=Shop.new("#{$company_name} Marker",50);
 s2.getDetails
 
