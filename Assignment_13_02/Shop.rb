@@ -9,7 +9,7 @@ class Shop
     print "Enter gst:"
     @gst = gets.chomp.to_i     
    end
-   def getDetails()
+   def getDetails
       
       puts "Welcome to #{SHOP_NAME}!!" 
       puts "Welcome #{@username} your invoice with #{@gst}% gst are below: "
